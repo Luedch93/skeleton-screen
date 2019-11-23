@@ -1,0 +1,11 @@
+.App {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  .Card:not(:last-child) {
+    margin-right: 2em;
+  }
+}
